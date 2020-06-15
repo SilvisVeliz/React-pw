@@ -1,18 +1,9 @@
 import React from 'react';
-import { Grid, Box } from '@material-ui/core';
+import { Grid, Box, Link } from '@material-ui/core';
 import { makeStyles } from '@material-ui/core/styles';
 import Hidden from '@material-ui/core/Hidden';
-import {
-    BrowserRouter as Router,
-    Switch,
-    Route,
-    Link
-} from "react-router-dom";
 
 import './Navbar.css';
-import App from "../App";
-import NegHem from "../NegHem";
-import ComoVe from "../ComoVe";
 
 const useStyles = makeStyles((theme) => ({
     root: {
@@ -101,13 +92,6 @@ const NabvarX = () => {
                         </Link>
                     </Hidden>
                 </box>
-                {/* <switch>
-                        <route exact path="/"></route>
-                        <route exact path="/enf"><NegHem/></route>
-                        <route exact path="/ojo"><ComoVe/></route>
-                        <route exact path="/soc"></route>
-                        <route exact path="/com"></route>
-                    </switch>*/}
             </Grid>
         </Grid>
     );
