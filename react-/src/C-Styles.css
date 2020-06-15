@@ -1,0 +1,59 @@
+.C-body {
+    text-align: -moz-left;
+    font-size: 25px;
+    font-family: "Century Gothic";
+    color: slategrey;
+}
+
+.C-footer {
+    text-align: -moz-left;
+    font-size: 25px;
+    font-family: "Century Gothic";
+    color: slategrey;
+}
+
+.C-creador{
+    font-family: sans-serif;
+    font-size: 15px;
+    color: slategrey;
+    margin-top: 100px;
+    margin-bottom: 20px;
+}
+
+.C-header {
+    background-color: #282c34;
+    min-height: 30vh;
+    display: flex;
+    flex-direction: column;
+    /*align-items: center;*/
+    justify-content: left;
+    color: slategrey;
+    background-image: url("https://www.defondos.com/images/wallpapers/cuadros%20fondo%20azul%20blue%20wallpaper%20(75)-472984_800.jpeg");
+}
+
+.C-link {
+    color: #61dafb;
+}
+
+.contenido{
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+.titulo{
+    font-family: "Sky Blue";
+    color: slategrey;
+    border-bottom-color: burlywood;
+}
+
+.subtit{
+    font-family: "Sky Blue";
+    color: slategrey;
+    border-bottom-color: burlywood;
+}
+
+.texto {
+    color: slategrey;
+    font-family: "Century Gothic";
+    font-size: 15px;
+}
